@@ -1,0 +1,54 @@
+.countryname{
+    position: absolute;
+    top: 3vh;
+    left: 15vw;
+    font-size: 5em;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.countrymap{
+    position: absolute;
+    left: 15vw;
+    top:15vh;
+    height: 30%;
+    width: 63%;
+}
+
+.countrychart{
+    position: absolute;
+    top: 30vh;
+    left: 25vw;
+    height: 70%;
+    width: 50%;
+    display: flex;
+}
+
+.countrydesc{
+    position: absolute;
+    top: 80vh;
+    height: 70%;
+    width: 100%;
+}
+
+.desc{
+    color:white;
+    font-size:35px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 5%;
+}
+
+.mapchart{
+    height: 400px;
+    width: auto;
+}
+
+.column{
+    display: flex; 
+    flex-direction: column;
+    height:90vh;
+    width:100vw;
+    max-height:1000px;
+    margin:auto auto;
+}

@@ -1,0 +1,48 @@
+.countryname{
+    width:70%;
+    margin:30px auto;
+}
+
+.countrymap{
+    height:76%;
+    width:40%;
+    margin:10% 0 4% 2%;
+}
+
+.countrychart{
+    height:70%;
+    width:100%;
+    display:flex;
+    max-height:400px;
+}
+
+.countrydesc{
+    height:30%;
+    width:90%;
+    margin:auto;
+    display:flex;
+}
+
+.column{
+    display: flex; 
+    flex-direction: row;
+    height:76vh;
+    width:100vw;
+    max-height:1000px;
+    margin:auto auto;
+}
+
+p{
+    color:white;
+    font-size:17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.chartdesc{
+    display: flex; 
+    flex-direction: column;
+    height:90%;
+    width:60%;
+    margin:5% 0;
+}

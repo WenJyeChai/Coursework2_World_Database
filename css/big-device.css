@@ -1,0 +1,49 @@
+.outer{
+    margin:15vh auto;
+    padding:15px;
+    width:40vw;
+    height:20vh;
+}
+.outer_insert{
+    margin:2vh auto;
+    padding:15px;
+    width:40vw;
+    height:20vh;
+}
+.prevnextbutton{
+    width:30vw;
+}
+
+fieldset{
+    border-radius: 5px;
+    border: white solid 1px;
+    width:30vw;
+    font-size:large;
+    color:white;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    max-width:288.05px;
+    margin:0 auto;
+}
+
+.footer{
+    padding: 0px 110px 30px 110px;
+}
+
+.cw2{
+    width: 33%;
+}
+.image{
+    width:33%;
+}
+
+.legal__links{
+    width: 33%;
+}
+
+.last{
+    text-align:right;
+}

@@ -1,0 +1,83 @@
+input{
+    border-radius: 5px;
+    background-color: white;
+    border: white;
+    color: #141e30;
+    font-size:large;
+    padding: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+fieldset{
+    border-radius: 5px;
+    border: white solid 1px;
+    width:30vw;
+    font-size:large;
+    color:white;
+}
+
+input:focus,input:hover{
+    outline: none;
+    text-decoration: none;
+  }
+
+option,select{
+    padding: 7px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+
+option{
+    font-size: 15px;
+}
+
+option:hover,option:focus{
+    background-color: #141e30 inset;
+}
+
+
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #141e30;
+  }   
+
+  input.invalid {
+    background-color: #ffdddd;
+  }
+
+  select.invalid {
+    background-color: #ffdddd;
+  }
+
+  .tab {
+    display: none;
+  }
+  @media (min-width:1000px) {
+select{
+    font-size: large;
+}
+}
+  legend {
+  display: block;
+  padding: 0;
+  font-size: (@font-size-base * 1.5);
+  line-height: inherit;
+  border: 0;
+  color: white;
+  width: auto;
+}

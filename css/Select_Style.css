@@ -1,0 +1,214 @@
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@font-face {
+    font-family: GROBOLD;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../css/GROBOLD.woff) format('woff');
+    }
+html{
+    height:100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background: linear-gradient(to right, #141e30, #243b55);
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+button {
+    background: transparent;
+	color: white;
+	border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button:hover{
+    background: white;
+	  color: #141e30;
+	  border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.pagination{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+a:hover{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #141e30;
+  font-size: 1.05em;
+}
+
+thead {
+    font-size:1.5em;
+}
+
+h1 {
+  font-size:3em; 
+  font-weight: 600;
+  line-height:1em;
+  text-align: left;
+  color: #fff;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 75%;
+	  margin: 0 auto;
+    display: table;
+    padding: 0 0 2em 0;
+  
+}
+
+.container td, .container th {
+padding:2%;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { color: #ffdb28; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container td:hover {
+  background-color: #Fbd75c;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+.search-div{
+  width: 75%;
+
+  margin: 0 auto;
+}
+
+#content{
+  text-align: right;
+  vertical-align: middle;
+}
+
+.input , .search{
+  border: white 2px solid;
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  padding:10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+::placeholder { 
+  color: white;
+  opacity: 1; 
+}
+
+
+.input:focus,.search:focus{
+  outline:none;
+}
+
+.search:hover{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #141e30;
+  padding:10px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+ .search_delete_update{
+  border: white 2px solid;
+  background-color: transparent;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding:10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.search_delete_update:hover{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  background-color: #3A657A;
+  border: #3A657A  2px solid;
+  color: #fff;
+  padding:10px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}
